@@ -7,6 +7,7 @@ india-air-quality.csv
 india-air-quality2.csv
 japan-air-quality.csv
 japan-air-quality2.csv
+pillbug.png
 setup.py
 singapore-air-quality2.csv
 south_korea-air-quality.csv
@@ -14,6 +15,10 @@ south_korea-air-quality2.csv
 taiwan-air-quality.csv
 taiwan-air-quality2.csv
 united kingdom-air-quality.csv
+__pycache__/aerial_contamination.cpython-37.pyc
+dist/aerial_contamination-0.0.1-py3.8.egg
+src/__init__.py
+src/__main__.py
 src/aerial_contamination.py
 src/aerial_contamination.egg-info/PKG-INFO
 src/aerial_contamination.egg-info/SOURCES.txt

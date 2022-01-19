@@ -1,0 +1,1 @@
+This is a simple example package about aerial contamination.
