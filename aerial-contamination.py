@@ -4,13 +4,14 @@ import numpy as np
 import subprocess as sp
 def main():
 
-    sp.call("wget https://github.com/HAKU0312/aerial-contamination/blob/main/china-air-quality.csv",shell=True)
+    #sp.call("wget https://github.com/HAKU0312/aerial-contamination/blob/main/china-air-quality.csv",shell=True)
     #sp.call("wget https://github.com/HAKU0312/aerial-contamination/blob/main/taiwan-air-quality.csv",shell=True)
     #sp.call("wget https://github.com/HAKU0312/aerial-contamination/blob/main/japan-air-quality.csv",shell=True)
     #sp.call("wget https://github.com/HAKU0312/aerial-contamination/blob/main/india-air-quality.csv",shell=True)
     #sp.call("wget https://github.com/HAKU0312/aerial-contamination/blob/main/india-air-quality.csv",shell=True)
     #sp.call("wget https://github.com/HAKU0312/aerial-contamination/blob/main/south_korea-air-quality.csv",shell=True)
-    df_china=pd.read_csv('china-air-quality.csv')
+    sp.call("wget https://github.com/HAKU0312/aerial-contamination/blob/main/china-air-quality_score.csv",shell=True)
+    df_china=pd.read_csv('china-air-quality_score.csv')
     #df_taiwan=pd.read_csv('taiwan-air-quality.csv')
     #df_japan=pd.read_csv('japan-air-quality.csv')
     #df_india=pd.read_csv('india-air-quality.csv')
