@@ -10,7 +10,7 @@ def main():
     #sp.call("wget https://github.com/HAKU0312/aerial-contamination/blob/main/india-air-quality.csv",shell=True)
     #sp.call("wget https://github.com/HAKU0312/aerial-contamination/blob/main/india-air-quality.csv",shell=True)
     #sp.call("wget https://github.com/HAKU0312/aerial-contamination/blob/main/south_korea-air-quality.csv",shell=True)
-    df_china=pd.read_csv('china-air-quality.csv',dtype={' pm25':int})
+    df_china=pd.read_csv('china-air-quality.csv')
     #df_taiwan=pd.read_csv('taiwan-air-quality.csv')
     #df_japan=pd.read_csv('japan-air-quality.csv')
     #df_india=pd.read_csv('india-air-quality.csv')
