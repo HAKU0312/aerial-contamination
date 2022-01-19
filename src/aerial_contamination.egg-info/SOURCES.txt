@@ -1,0 +1,22 @@
+README.md
+china-air-quality.csv
+china-air-quality2.csv
+china-air-quality_score.csv
+countries
+india-air-quality.csv
+india-air-quality2.csv
+japan-air-quality.csv
+japan-air-quality2.csv
+setup.py
+singapore-air-quality2.csv
+south_korea-air-quality.csv
+south_korea-air-quality2.csv
+taiwan-air-quality.csv
+taiwan-air-quality2.csv
+united kingdom-air-quality.csv
+src/aerial_contamination.py
+src/aerial_contamination.egg-info/PKG-INFO
+src/aerial_contamination.egg-info/SOURCES.txt
+src/aerial_contamination.egg-info/dependency_links.txt
+src/aerial_contamination.egg-info/entry_points.txt
+src/aerial_contamination.egg-info/top_level.txt
