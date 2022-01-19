@@ -2,6 +2,7 @@ import requests,re
 import pandas as pd
 import numpy as np
 import subprocess as sp
+import matplotlib.pyplot as plt
 def main():
 
     sp.call("wget https://github.com/HAKU0312/aerial-contamination/blob/main/china-air-quality2.csv",shell=True)
@@ -40,9 +41,22 @@ def main():
     #print(df_singapore)
 
     df_score=df_china['date']
-    df_score=pd.concat([df_china['china_score'], df_taiwan['taiwan_score'],df_japan['japan_score'],
+    df_score=pd.concat([df_china['date'],df_china['china_score'], df_taiwan['taiwan_score'],df_japan['japan_score'],
     df_korea['south_korea_score']], axis=1)
     print(df_score)
+    
+    
+    x = df_score['date']
+    plt.plot(x,df_score['china_score'],color="red",label='china_score')
+    plt.plot(x,df_score['taiwan_score'],color="black",label='taiwan_score')
+    plt.plot(x,df_score['japan_score'],color="blue",label='japan_score')
+    plt.plot(x,df_score['south_korea_score'],color="green",label='south_korea_score')
+    
+
+    #plt.xlabel("date")
+    #plt.ylabel("score")
+    plt.legend()
+    plt.show()
     
 
 
