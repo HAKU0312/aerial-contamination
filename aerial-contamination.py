@@ -8,7 +8,7 @@ def main():
     sp.call("wget https://github.com/HAKU0312/aerial-contamination/blob/main/taiwan-air-quality.csv",shell=True)
     df_china=pd.read_csv('china-air-quality.csv')
     df_taiwan=pd.read_csv('taiwan-air-quality.csv')
-    print(df_germany)
+    print(df_china)
 
 if __name__ == "__main__":
  main()
